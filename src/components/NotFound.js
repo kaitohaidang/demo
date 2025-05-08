@@ -4,12 +4,12 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
-import Navbar from './components/Navbar';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
-import VehicleList from './components/vehicle/VehicleList';
-import VehicleForm from './components/vehicle/VehicleForm';
-import NotFound from './components/NotFound';
+import Navbar from './Navbar';  // vì cùng nằm trong thư mục components
+import Login from './Login';
+import Dashboard from './Dashboard';
+import VehicleList from './vehicle/VehicleList';
+import VehicleForm from './vehicle/VehicleForm';
+import NotFound from './NotFound';
 
 // Auth Guard Component
 const PrivateRoute = ({ children }) => {
